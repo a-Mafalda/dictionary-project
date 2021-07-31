@@ -5,9 +5,20 @@
   font-family: "Baskervville", serif;
 }
 
-.container {
-  width: 600px;
+.structure {
+  max-width: 600px;
   height: 400px;
   background-color: #f6cacd;
-  font-family: "Cormorant Infant", serif;
+  font-family: "Baskervville", serif;
+  display: block;
+  margin: 0 auto;
+}
+
+.subHeader {
+  text-align: center;
+  font-size: 28px;
+  color: #555555;
+  padding-top: 130px;
+  margin-top: -10px;
+  font-family: "Baskervville", serif;
 }

@@ -4,4 +4,6 @@ input[type="search"] {
   border-radius: 4px;
   transition: width 0.4s ease-in-out;
   width: 250px;
+  display: block;
+  margin: 30px auto;
 }
