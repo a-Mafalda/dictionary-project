@@ -1,4 +1,13 @@
 .App-header {
   margin: 40px 0;
   text-align: center;
+  font-size: 42px;
+  font-family: "Baskervville", serif;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #f6cacd;
+  font-family: "Cormorant Infant", serif;
 }
