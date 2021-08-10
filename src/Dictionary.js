@@ -23,14 +23,21 @@ function handleKeywordChange(event) {
     setKeyword(event.target.value);
 }
     return (
-        <div className="dictionary">
-            <form onSubmit={search}>
+        <div>
+        <div className="structure">
+          <p className="subHeader">look me up!</p>
+          <form onSubmit={search}>
                <input type="search" 
                placeholder="e.g. sunrise"
+               autoFocus={true}
                onChange={handleKeywordChange}
                />
                  </form>
-                 <Results results={results}/>
         </div>
+        <div className="dictionary">
+           <Results results={results}/>
+           </div>
+    </div>
+                 
     );
 }

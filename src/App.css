@@ -1,32 +1,30 @@
+body {
+  background: rgba(204, 198, 171, 0.2);
+}
+
 .App-header {
-  margin: 40px 0;
+  margin: 30px 0;
   text-align: center;
   font-size: 42px;
   font-family: "Baskervville", serif;
+  color: rgb(232, 71, 132);
 }
 
 .structure {
-  max-width: 600px;
-  height: 400px;
-  background-color: #f6cacd;
+  max-width: 350px;
+  height: 350px;
+  background-color: rgba(246, 202, 205, 0.4);
   font-family: "Baskervville", serif;
   display: block;
   margin: 0 auto;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.05);
-}
-
-.subHeader {
-  text-align: center;
-  font-size: 28px;
-  color: #555555;
-  padding-top: 130px;
-  margin-top: -10px;
-  font-family: "Baskervville", serif;
+  border-radius: 200px;
 }
 
 .App-footer {
   text-align: center;
   font-family: "Cormorant Infant", serif;
+  padding-top: 10px;
 }

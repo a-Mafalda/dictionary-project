@@ -1,0 +1,12 @@
+.Phonetic {
+  font-size: 28px;
+  font-family: "Cormorant Infant", serif;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a {
+  font-size: 22px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: bold;
+  color: rgb(232, 71, 132);
+}
