@@ -11,7 +11,7 @@ input[type="search"] {
 }
 
 ::placeholder {
-  color: rgb(232, 71, 132);
+  color: rgb(233, 67, 102);
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ input[type="search"] {
 }
 
 a {
-  color: rgb(232, 71, 132);
+  color: rgb(233, 67, 102);
   text-decoration: none;
 }
 
