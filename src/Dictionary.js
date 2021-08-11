@@ -24,7 +24,7 @@ function handlePexels(response){
           axios.get(apiUrl).then(handleResponse);
 
     let pexelsApiKey = "563492ad6f91700001000001eb92792241874864803dfa5831472961";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = {Authorization: `Bearer ${pexelsApiKey}`};
     axios.get(pexelsApiUrl, { headers: headers}).then
     (handlePexels);
